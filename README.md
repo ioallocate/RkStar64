@@ -7,13 +7,13 @@
 ## Question-mark
 - This is a Hardware Uility Toolkit intended to be used for Diagnostics on an E-Guitar Visualization Component.
 - It supports the following ioctl:
-    #### GetBaseAddress
-    #### ReadVirtualMemory
-    #### WriteVirtualMemory
+    #### GetBaseAddress | paramaters (in order) -> processName (single)
+    #### ReadVirtualMemory | paramaters (in order) -> processId -> readTargetHex -> size (auto)
+    #### WriteVirtualMemory | paramaters (in order) -> processId -> writeTargetHex -> writeValue (auto)
 - A Video showing the Integration Tool (with the driver pre-loaded) — [Client Showcase.mp4](https://github.com/ioallocate/RkStar64/raw/main/Assets/Showcase.mp4)
 
 ## At
--Claude has been used to assist with writing the ReadWriteTarget.
+- Claude has been used to assist with writing the ReadWriteTarget.
 
 ## Dot
 - This Diagnostics Driver is compatible and works on and with kernel level anti-cheats. This i can confirm because i personally tested it.
