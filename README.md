@@ -10,9 +10,7 @@
     #### GetBaseAddress
     #### ReadVirtualMemory
     #### WriteVirtualMemory
-- A Video showing the Integration Tool (with the driver pre-loaded):
-
-<video src="Assets/Showcase.mp4" controls width="100%"></video>
+- A Video showing the Integration Tool (with the driver pre-loaded) — [Download Showcase.mp4](https://github.com/ioallocate/RkStar64/raw/main/Assets/Showcase.mp4)
 
 ## At
 -Claude has been used to assist with writing the ReadWriteTarget.
