@@ -1,0 +1,51 @@
+[Version]
+Signature="$Windows NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%ManufacturerName%
+CatalogFile=RkStar64.cat
+DriverVer=09/05/2026,1.0.0.0
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir=13
+
+[SourceDisksNames]
+1=%DiskName%,,,""
+
+[SourceDisksFiles]
+RkStar64.sys=1
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64.10.0...16299
+
+[Standard.NTamd64.10.0...16299]
+%RkStar64.DeviceDesc%=RkStar64_Device,Root\RkStar64
+
+[RkStar64_Device.NT]
+CopyFiles=RkStar64_CopyFiles
+
+[RkStar64_CopyFiles]
+RkStar64.sys
+
+[RkStar64_Device.NT.Services]
+AddService=RkStar64,0x00000002,RkStar64_Service_Inst
+
+[RkStar64_Service_Inst]
+DisplayName=%RkStar64.SVCDESC%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\RkStar64.sys
+
+[RkStar64_Device.NT.Wdf]
+KmdfService=RkStar64,RkStar64_Wdf
+
+[RkStar64_Wdf]
+KmdfLibraryVersion=1.23
+
+[Strings]
+ManufacturerName="<I Dont Want this Known>"
+DiskName="RkStar64 Installation Disk"
+RkStar64.DeviceDesc="RkStar64 Device"
+RkStar64.SVCDESC="RkStar64 Service"
