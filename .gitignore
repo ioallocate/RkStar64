@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.sln.DotSettings.user
+.vscode/
+
+# Build outputs
+bin/
+build/
+out/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Architecture-specific
+x64/
+x86/
+arm/
+arm64/
+
+# Visual Studio user files
+*.user
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
+
+# Build artifacts
+Debug/
+Release/
+*.ilk
+*.manifest
+*.res
+*.gch
+
+# Dependencies
+packages/
+.nuget/
+vcpkg_installed/
+
+# OS files
+.DS_Store
+Thumbs.db
