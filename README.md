@@ -12,9 +12,7 @@
     #### WriteVirtualMemory
 - A Video showing the Integration Tool (with the driver pre-loaded)
 
-https://github.com/user/RkStar64/raw/main/Assets/Showcase.mp4
-
-https://user-images.githubusercontent.com/placeholder/Showcase.mp4
+https://github.com/ioallocate/RkStar64/raw/main/Assets/Showcase.mp4
 
 <video width="320" height="240" controls>
   <source src="Assets/Showcase.mp4" type="video/mp4">
