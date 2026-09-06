@@ -48,6 +48,5 @@ vcpkg_installed/
 Thumbs.db
 
 # Large media files
-*.mp4
 *.mov
 *.avi
